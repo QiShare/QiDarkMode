@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Qi测试DarkMode</title>
+	
+<style>
+
+:root {
+    color-scheme: light dark;
+    --special-text-color: black;
+	
+    --bg-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+		--special-text-color: white; 
+        --bg-color: black;
+    }
+}
+
+.special {
+    color: var(--special-text-color);
+    background-color: var(--bg-color);
+}
+	
+body
+{
+	background-color:var(--bg-color);
+}
+h1
+{
+	color:var(--special-text-color);
+	text-align:center;
+}
+p
+{
+	color:var(--special-text-color);
+	font-family:"Times New Roman";
+	font-size:20px;
+}
+	
+
+	</style>
+</head>
+
+<body>
+
+<h1>测试DarkMode标题</h1>
+<p>DarkMode段落。</p>
+
+	<picture>
+	<source srcset="http://img.zcool.cn/community/012b62554b2b0e000001bf72f9aad7.jpg@2o.jpg" media="(prefers-color-scheme: dark)">
+	<img src="http://p0.so.qhmsg.com/t0184f2659879a11464.jpg" width="300">
+</picture>
+
+</body>
+</html>

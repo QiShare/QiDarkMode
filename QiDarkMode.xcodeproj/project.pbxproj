@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE4A878C233866CF006D47A4 /* QiWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4A878B233866CF006D47A4 /* QiWebViewController.m */; };
+		EE4A878E23386CD6006D47A4 /* QiTestDarkMode.html in Resources */ = {isa = PBXBuildFile; fileRef = EE4A878D23386CD6006D47A4 /* QiTestDarkMode.html */; };
+		EEC1B1BC232E4A9300C63A60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B1BB232E4A9300C63A60 /* AppDelegate.m */; };
+		EEC1B1BF232E4A9300C63A60 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B1BE232E4A9300C63A60 /* SceneDelegate.m */; };
+		EEC1B1C2232E4A9300C63A60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B1C1232E4A9300C63A60 /* ViewController.m */; };
+		EEC1B1C5232E4A9300C63A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC1B1C3232E4A9300C63A60 /* Main.storyboard */; };
+		EEC1B1C7232E4A9600C63A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC1B1C6232E4A9600C63A60 /* Assets.xcassets */; };
+		EEC1B1CA232E4A9600C63A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC1B1C8232E4A9600C63A60 /* LaunchScreen.storyboard */; };
+		EEC1B1CD232E4A9600C63A60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B1CC232E4A9600C63A60 /* main.m */; };
+		EEC1B1DE232E4AF400C63A60 /* QiDarkModeBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B1D4232E4AF300C63A60 /* QiDarkModeBaseViewController.m */; };
+		EEC1B1DF232E4AF400C63A60 /* QiDarkModeMaterialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B1D5232E4AF300C63A60 /* QiDarkModeMaterialViewController.m */; };
+		EEC1B1E0232E4AF400C63A60 /* QiDarkModeVisualEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B1D6232E4AF300C63A60 /* QiDarkModeVisualEffectViewController.m */; };
+		EEC1B1E1232E4AF400C63A60 /* QiDarkModeColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B1DA232E4AF400C63A60 /* QiDarkModeColorViewController.m */; };
+		EEC1B1E2232E4AF400C63A60 /* QiDarkModeImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B1DB232E4AF400C63A60 /* QiDarkModeImageViewController.m */; };
+		EEC1B1E3232E4AF400C63A60 /* QiDarkModeResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEC1B1DD232E4AF400C63A60 /* QiDarkModeResource.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE4A878A233866CF006D47A4 /* QiWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiWebViewController.h; sourceTree = "<group>"; };
+		EE4A878B233866CF006D47A4 /* QiWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiWebViewController.m; sourceTree = "<group>"; };
+		EE4A878D23386CD6006D47A4 /* QiTestDarkMode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = QiTestDarkMode.html; sourceTree = "<group>"; };
+		EEC1B1B7232E4A9300C63A60 /* QiDarkMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiDarkMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC1B1BA232E4A9300C63A60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEC1B1BB232E4A9300C63A60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEC1B1BD232E4A9300C63A60 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EEC1B1BE232E4A9300C63A60 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EEC1B1C0232E4A9300C63A60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEC1B1C1232E4A9300C63A60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEC1B1C4232E4A9300C63A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEC1B1C6232E4A9600C63A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEC1B1C9232E4A9600C63A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEC1B1CB232E4A9600C63A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC1B1CC232E4A9600C63A60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEC1B1D3232E4AF300C63A60 /* QiDarkModeBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiDarkModeBaseViewController.h; sourceTree = "<group>"; };
+		EEC1B1D4232E4AF300C63A60 /* QiDarkModeBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiDarkModeBaseViewController.m; sourceTree = "<group>"; };
+		EEC1B1D5232E4AF300C63A60 /* QiDarkModeMaterialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiDarkModeMaterialViewController.m; sourceTree = "<group>"; };
+		EEC1B1D6232E4AF300C63A60 /* QiDarkModeVisualEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiDarkModeVisualEffectViewController.m; sourceTree = "<group>"; };
+		EEC1B1D7232E4AF400C63A60 /* QiDarkModeImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiDarkModeImageViewController.h; sourceTree = "<group>"; };
+		EEC1B1D8232E4AF400C63A60 /* QiDarkModeColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiDarkModeColorViewController.h; sourceTree = "<group>"; };
+		EEC1B1D9232E4AF400C63A60 /* QiDarkModeVisualEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiDarkModeVisualEffectViewController.h; sourceTree = "<group>"; };
+		EEC1B1DA232E4AF400C63A60 /* QiDarkModeColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiDarkModeColorViewController.m; sourceTree = "<group>"; };
+		EEC1B1DB232E4AF400C63A60 /* QiDarkModeImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiDarkModeImageViewController.m; sourceTree = "<group>"; };
+		EEC1B1DC232E4AF400C63A60 /* QiDarkModeMaterialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiDarkModeMaterialViewController.h; sourceTree = "<group>"; };
+		EEC1B1DD232E4AF400C63A60 /* QiDarkModeResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QiDarkModeResource.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEC1B1B4232E4A9300C63A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEC1B1AE232E4A9300C63A60 = {
+			isa = PBXGroup;
+			children = (
+				EEC1B1B9232E4A9300C63A60 /* QiDarkMode */,
+				EEC1B1B8232E4A9300C63A60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEC1B1B8232E4A9300C63A60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEC1B1B7232E4A9300C63A60 /* QiDarkMode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEC1B1B9232E4A9300C63A60 /* QiDarkMode */ = {
+			isa = PBXGroup;
+			children = (
+				EE4A878D23386CD6006D47A4 /* QiTestDarkMode.html */,
+				EEC1B1DD232E4AF400C63A60 /* QiDarkModeResource.bundle */,
+				EEC1B1D3232E4AF300C63A60 /* QiDarkModeBaseViewController.h */,
+				EEC1B1D4232E4AF300C63A60 /* QiDarkModeBaseViewController.m */,
+				EEC1B1D8232E4AF400C63A60 /* QiDarkModeColorViewController.h */,
+				EEC1B1DA232E4AF400C63A60 /* QiDarkModeColorViewController.m */,
+				EEC1B1D7232E4AF400C63A60 /* QiDarkModeImageViewController.h */,
+				EEC1B1DB232E4AF400C63A60 /* QiDarkModeImageViewController.m */,
+				EEC1B1DC232E4AF400C63A60 /* QiDarkModeMaterialViewController.h */,
+				EEC1B1D5232E4AF300C63A60 /* QiDarkModeMaterialViewController.m */,
+				EEC1B1D9232E4AF400C63A60 /* QiDarkModeVisualEffectViewController.h */,
+				EEC1B1D6232E4AF300C63A60 /* QiDarkModeVisualEffectViewController.m */,
+				EE4A878A233866CF006D47A4 /* QiWebViewController.h */,
+				EE4A878B233866CF006D47A4 /* QiWebViewController.m */,
+				EEC1B1BA232E4A9300C63A60 /* AppDelegate.h */,
+				EEC1B1BB232E4A9300C63A60 /* AppDelegate.m */,
+				EEC1B1BD232E4A9300C63A60 /* SceneDelegate.h */,
+				EEC1B1BE232E4A9300C63A60 /* SceneDelegate.m */,
+				EEC1B1C0232E4A9300C63A60 /* ViewController.h */,
+				EEC1B1C1232E4A9300C63A60 /* ViewController.m */,
+				EEC1B1C3232E4A9300C63A60 /* Main.storyboard */,
+				EEC1B1C6232E4A9600C63A60 /* Assets.xcassets */,
+				EEC1B1C8232E4A9600C63A60 /* LaunchScreen.storyboard */,
+				EEC1B1CB232E4A9600C63A60 /* Info.plist */,
+				EEC1B1CC232E4A9600C63A60 /* main.m */,
+			);
+			path = QiDarkMode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEC1B1B6232E4A9300C63A60 /* QiDarkMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC1B1D0232E4A9600C63A60 /* Build configuration list for PBXNativeTarget "QiDarkMode" */;
+			buildPhases = (
+				EEC1B1B3232E4A9300C63A60 /* Sources */,
+				EEC1B1B4232E4A9300C63A60 /* Frameworks */,
+				EEC1B1B5232E4A9300C63A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiDarkMode;
+			productName = QiDarkMode;
+			productReference = EEC1B1B7232E4A9300C63A60 /* QiDarkMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEC1B1AF232E4A9300C63A60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = WYW;
+				TargetAttributes = {
+					EEC1B1B6232E4A9300C63A60 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = EEC1B1B2232E4A9300C63A60 /* Build configuration list for PBXProject "QiDarkMode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEC1B1AE232E4A9300C63A60;
+			productRefGroup = EEC1B1B8232E4A9300C63A60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEC1B1B6232E4A9300C63A60 /* QiDarkMode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEC1B1B5232E4A9300C63A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4A878E23386CD6006D47A4 /* QiTestDarkMode.html in Resources */,
+				EEC1B1CA232E4A9600C63A60 /* LaunchScreen.storyboard in Resources */,
+				EEC1B1C7232E4A9600C63A60 /* Assets.xcassets in Resources */,
+				EEC1B1E3232E4AF400C63A60 /* QiDarkModeResource.bundle in Resources */,
+				EEC1B1C5232E4A9300C63A60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEC1B1B3232E4A9300C63A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC1B1E0232E4AF400C63A60 /* QiDarkModeVisualEffectViewController.m in Sources */,
+				EE4A878C233866CF006D47A4 /* QiWebViewController.m in Sources */,
+				EEC1B1E1232E4AF400C63A60 /* QiDarkModeColorViewController.m in Sources */,
+				EEC1B1C2232E4A9300C63A60 /* ViewController.m in Sources */,
+				EEC1B1DE232E4AF400C63A60 /* QiDarkModeBaseViewController.m in Sources */,
+				EEC1B1DF232E4AF400C63A60 /* QiDarkModeMaterialViewController.m in Sources */,
+				EEC1B1BC232E4A9300C63A60 /* AppDelegate.m in Sources */,
+				EEC1B1E2232E4AF400C63A60 /* QiDarkModeImageViewController.m in Sources */,
+				EEC1B1CD232E4A9600C63A60 /* main.m in Sources */,
+				EEC1B1BF232E4A9300C63A60 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEC1B1C3232E4A9300C63A60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC1B1C4232E4A9300C63A60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEC1B1C8232E4A9600C63A60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC1B1C9232E4A9600C63A60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEC1B1CE232E4A9600C63A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEC1B1CF232E4A9600C63A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEC1B1D1232E4A9600C63A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				INFOPLIST_FILE = QiDarkMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.wyw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEC1B1D2232E4A9600C63A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				INFOPLIST_FILE = QiDarkMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.wyw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEC1B1B2232E4A9300C63A60 /* Build configuration list for PBXProject "QiDarkMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC1B1CE232E4A9600C63A60 /* Debug */,
+				EEC1B1CF232E4A9600C63A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC1B1D0232E4A9600C63A60 /* Build configuration list for PBXNativeTarget "QiDarkMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC1B1D1232E4A9600C63A60 /* Debug */,
+				EEC1B1D2232E4A9600C63A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEC1B1AF232E4A9300C63A60 /* Project object */;
+}
