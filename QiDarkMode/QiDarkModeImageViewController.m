@@ -27,6 +27,7 @@
 - (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection {
     [super traitCollectionDidChange:previousTraitCollection];
     
+    NSLog(@"%s", __FUNCTION__);
     if (QiAvailable(13.0)) {
         if ([self.traitCollection hasDifferentColorAppearanceComparedToTraitCollection:previousTraitCollection]) {
             if (self.traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark) {
@@ -74,6 +75,15 @@
     [self.view addSubview:starImageView];
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    
+    return UIStatusBarStyleDarkContent;
+}
 
 
 @end

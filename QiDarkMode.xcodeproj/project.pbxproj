@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1BB002233C4B3300CBE9F3 /* QiDarkModeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1BB001233C4B3300CBE9F3 /* QiDarkModeNavigationController.m */; };
 		EE4A878C233866CF006D47A4 /* QiWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4A878B233866CF006D47A4 /* QiWebViewController.m */; };
 		EE4A878E23386CD6006D47A4 /* QiTestDarkMode.html in Resources */ = {isa = PBXBuildFile; fileRef = EE4A878D23386CD6006D47A4 /* QiTestDarkMode.html */; };
+		EE4A8794233B00A1006D47A4 /* QiCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4A8793233B00A1006D47A4 /* QiCustomView.m */; };
+		EE4A8797233B137D006D47A4 /* QiPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4A8796233B137C006D47A4 /* QiPresentationController.m */; };
 		EEC1B1BC232E4A9300C63A60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B1BB232E4A9300C63A60 /* AppDelegate.m */; };
 		EEC1B1BF232E4A9300C63A60 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B1BE232E4A9300C63A60 /* SceneDelegate.m */; };
 		EEC1B1C2232E4A9300C63A60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B1C1232E4A9300C63A60 /* ViewController.m */; };
@@ -25,9 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE1BB000233C4B3300CBE9F3 /* QiDarkModeNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiDarkModeNavigationController.h; sourceTree = "<group>"; };
+		EE1BB001233C4B3300CBE9F3 /* QiDarkModeNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiDarkModeNavigationController.m; sourceTree = "<group>"; };
 		EE4A878A233866CF006D47A4 /* QiWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiWebViewController.h; sourceTree = "<group>"; };
 		EE4A878B233866CF006D47A4 /* QiWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiWebViewController.m; sourceTree = "<group>"; };
 		EE4A878D23386CD6006D47A4 /* QiTestDarkMode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = QiTestDarkMode.html; sourceTree = "<group>"; };
+		EE4A8792233B00A1006D47A4 /* QiCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCustomView.h; sourceTree = "<group>"; };
+		EE4A8793233B00A1006D47A4 /* QiCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCustomView.m; sourceTree = "<group>"; };
+		EE4A8795233B137C006D47A4 /* QiPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiPresentationController.h; sourceTree = "<group>"; };
+		EE4A8796233B137C006D47A4 /* QiPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiPresentationController.m; sourceTree = "<group>"; };
 		EEC1B1B7232E4A9300C63A60 /* QiDarkMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiDarkMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC1B1BA232E4A9300C63A60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEC1B1BB232E4A9300C63A60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,8 +92,12 @@
 		EEC1B1B9232E4A9300C63A60 /* QiDarkMode */ = {
 			isa = PBXGroup;
 			children = (
+				EE4A8792233B00A1006D47A4 /* QiCustomView.h */,
+				EE4A8793233B00A1006D47A4 /* QiCustomView.m */,
 				EE4A878D23386CD6006D47A4 /* QiTestDarkMode.html */,
 				EEC1B1DD232E4AF400C63A60 /* QiDarkModeResource.bundle */,
+				EE1BB000233C4B3300CBE9F3 /* QiDarkModeNavigationController.h */,
+				EE1BB001233C4B3300CBE9F3 /* QiDarkModeNavigationController.m */,
 				EEC1B1D3232E4AF300C63A60 /* QiDarkModeBaseViewController.h */,
 				EEC1B1D4232E4AF300C63A60 /* QiDarkModeBaseViewController.m */,
 				EEC1B1D8232E4AF400C63A60 /* QiDarkModeColorViewController.h */,
@@ -97,6 +110,8 @@
 				EEC1B1D6232E4AF300C63A60 /* QiDarkModeVisualEffectViewController.m */,
 				EE4A878A233866CF006D47A4 /* QiWebViewController.h */,
 				EE4A878B233866CF006D47A4 /* QiWebViewController.m */,
+				EE4A8795233B137C006D47A4 /* QiPresentationController.h */,
+				EE4A8796233B137C006D47A4 /* QiPresentationController.m */,
 				EEC1B1BA232E4A9300C63A60 /* AppDelegate.h */,
 				EEC1B1BB232E4A9300C63A60 /* AppDelegate.m */,
 				EEC1B1BD232E4A9300C63A60 /* SceneDelegate.h */,
@@ -191,7 +206,10 @@
 				EEC1B1DE232E4AF400C63A60 /* QiDarkModeBaseViewController.m in Sources */,
 				EEC1B1DF232E4AF400C63A60 /* QiDarkModeMaterialViewController.m in Sources */,
 				EEC1B1BC232E4A9300C63A60 /* AppDelegate.m in Sources */,
+				EE4A8797233B137D006D47A4 /* QiPresentationController.m in Sources */,
 				EEC1B1E2232E4AF400C63A60 /* QiDarkModeImageViewController.m in Sources */,
+				EE4A8794233B00A1006D47A4 /* QiCustomView.m in Sources */,
+				EE1BB002233C4B3300CBE9F3 /* QiDarkModeNavigationController.m in Sources */,
 				EEC1B1CD232E4A9600C63A60 /* main.m in Sources */,
 				EEC1B1BF232E4A9300C63A60 /* SceneDelegate.m in Sources */,
 			);

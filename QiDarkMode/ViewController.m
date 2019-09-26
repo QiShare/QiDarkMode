@@ -13,6 +13,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    if (@available(iOS 13.0, *)) {
+        UIColor *forgroundColor = [UIColor colorNamed:@"colorName"];
+        if (forgroundColor) {
+            NSAttributedString *attriString = [[NSAttributedString alloc] initWithString:@"QiShare" attributes:@{NSForegroundColorAttributeName: forgroundColor}];
+            NSLog(@"属性字符串%@", attriString);
+        }
+    }
+    // UIActivityIndicatorView *indicatorView;
 }
 
 

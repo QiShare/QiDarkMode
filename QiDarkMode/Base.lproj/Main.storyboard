@@ -26,7 +26,7 @@
         <!--Color-->
         <scene sceneID="FuW-u5-72u">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O0c-xA-yDQ" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O0c-xA-yDQ" customClass="QiDarkModeNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Color" id="SCL-dk-Dlp"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pTt-4C-AT3">
@@ -83,7 +83,7 @@
         <!--Image-->
         <scene sceneID="z5m-i7-gR0">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CUX-lf-xeM" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CUX-lf-xeM" customClass="QiDarkModeNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Image" id="khz-pZ-nVj"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="r95-Zi-BfO">
@@ -118,7 +118,7 @@
         <!--VisualEfect-->
         <scene sceneID="rC4-GJ-ugi">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5R1-Io-GXm" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5R1-Io-GXm" customClass="QiDarkModeNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="VisualEfect" id="CvU-rw-2a4"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mkV-zW-Krb">
@@ -141,16 +141,7 @@
                     <view key="view" contentMode="scaleToFill" id="ZcN-gd-lBQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QiShare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xoc-kg-uNR">
-                                <rect key="frame" x="102" y="411" width="211" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
-                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="g7o-Bs-4pM"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZuD-oo-08R"/>
@@ -162,7 +153,7 @@
         <!--Material-->
         <scene sceneID="lzi-ws-4xk">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jRR-4j-Mu2" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jRR-4j-Mu2" customClass="QiDarkModeNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Material" id="NpK-pq-SCn"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MiE-Lq-bjB">
@@ -197,7 +188,7 @@
         <!--Web-->
         <scene sceneID="Bjb-o9-WKa">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Otj-de-Lf4" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Otj-de-Lf4" customClass="QiDarkModeNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Web" id="JyD-tg-cqs"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xdY-gA-S31">

@@ -7,6 +7,8 @@
 //
 
 #import "QiDarkModeColorViewController.h"
+#import "QiPresentationController.h"
+#import "QiDarkModeImageViewController.h"
 
 @implementation QiDarkModeColorViewController
 
@@ -14,6 +16,16 @@
     [super viewDidLoad];
     
     [self setupUI];
+}
+
+- (void)viewWillLayoutSubviews {
+    
+    NSLog(@"%s", __FUNCTION__);
+}
+
+- (void)viewDidLayoutSubviews {
+    
+    NSLog(@"%s", __FUNCTION__);
 }
 
 - (void)setupUI {
@@ -43,9 +55,22 @@
     }];
 }
 
+#pragma mark - Actions
+
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
-    [self.view endEditing:YES];
+    QiDarkModeImageViewController *darkImgVC = [QiDarkModeImageViewController new];
+    QiPresentationController *presentTationController = [[QiPresentationController alloc] initWithPresentedViewController:darkImgVC presentingViewController:self];
+    darkImgVC.transitioningDelegate = presentTationController;
+    [self presentViewController:darkImgVC animated:YES completion:nil];
+}
+
+
+#pragma mark - Override
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    
+    return UIStatusBarStyleLightContent;
 }
 
 
